@@ -8,8 +8,8 @@ from urllib.parse import urlparse, parse_qs
 load_dotenv()
 
 # Configuración
-ARUBA_USER = os.getenv("ARUBA_USERNAME", "username")
-ARUBA_PASS = os.getenv("ARUBA_PASSWORD", "password")
+ARUBA_USER = os.getenv("ARUBA_USERNAME")
+ARUBA_PASS = os.getenv("ARUBA_PASSWORD")
 BASE_URL = 'https://sso.arubainstanton.com'
 REDIRECT_URI = 'https://portal.arubainstanton.com'
 
